@@ -1,3 +1,6 @@
+// ignore_for_file: unused_import
+
+import 'package:chattyapp/pages/message_page.dart';
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         fontFamily: 'Poppins',
       ),
-      home: const HomePage(),
+      home: const MessagePage(),
     );
   }
 }
