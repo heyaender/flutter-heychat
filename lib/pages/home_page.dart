@@ -1,3 +1,4 @@
+import 'package:chattyapp/pages/message_page.dart';
 import 'package:chattyapp/theme.dart';
 import 'package:chattyapp/widgets/chat_tile.dart';
 import 'package:flutter/material.dart';
@@ -9,7 +10,13 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       floatingActionButton: FloatingActionButton(
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => const MessagePage(),
+            ),
+          );
+        },
         backgroundColor: greenColor,
         child: const Icon(
           Icons.add,
