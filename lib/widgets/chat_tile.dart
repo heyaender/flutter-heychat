@@ -1,8 +1,6 @@
 // ignore_for_file: prefer_typing_uninitialized_variables
-
-import 'package:chattyapp/pages/message_page.dart';
 import 'package:flutter/material.dart';
-import 'package:chattyapp/theme.dart';
+import 'package:heychat/theme.dart';
 
 class ChatTile extends StatelessWidget {
   final String imgUrl, name, text, time;

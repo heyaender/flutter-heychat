@@ -1,7 +1,7 @@
-import 'package:chattyapp/pages/message_page.dart';
-import 'package:chattyapp/theme.dart';
-import 'package:chattyapp/widgets/chat_tile.dart';
 import 'package:flutter/material.dart';
+import 'package:heychat/pages/message_page.dart';
+import 'package:heychat/theme.dart';
+import 'package:heychat/widgets/chat_tile.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -44,7 +44,7 @@ class HomePage extends StatelessWidget {
                 height: 2,
               ),
               const Text(
-                'Sabrina Carpenter',
+                'Nabeela Khoiriyah',
                 style: TextStyle(
                   fontSize: 20,
                   color: whiteColor,
@@ -76,7 +76,7 @@ class HomePage extends StatelessWidget {
                     ),
                     const ChatTile(
                       imgUrl: 'assets/images/friend1.png',
-                      name: 'Joshuer',
+                      name: 'Andrianto Putro',
                       text: 'Sorry, you’re not my ty...',
                       time: 'Now',
                       unread: true,

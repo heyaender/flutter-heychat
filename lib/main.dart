@@ -1,6 +1,4 @@
 // ignore_for_file: unused_import
-
-import 'package:chattyapp/pages/message_page.dart';
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 

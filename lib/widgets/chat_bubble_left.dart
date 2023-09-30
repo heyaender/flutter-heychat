@@ -1,7 +1,6 @@
 // ignore_for_file: prefer_const_constructors
-
 import 'package:flutter/material.dart';
-import 'package:chattyapp/theme.dart';
+import 'package:heychat/theme.dart';
 
 class ChatBubbleLeft extends StatelessWidget {
   final String imgUrl, text, time;

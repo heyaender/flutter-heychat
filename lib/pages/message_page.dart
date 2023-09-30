@@ -1,9 +1,8 @@
 // ignore_for_file: prefer_const_constructors
-
-import 'package:chattyapp/theme.dart';
-import 'package:chattyapp/widgets/chat_bubble_left.dart';
-import 'package:chattyapp/widgets/chat_bubble_right.dart';
 import 'package:flutter/material.dart';
+import 'package:heychat/theme.dart';
+import 'package:heychat/widgets/chat_bubble_left.dart';
+import 'package:heychat/widgets/chat_bubble_right.dart';
 
 class MessagePage extends StatelessWidget {
   const MessagePage({super.key});
